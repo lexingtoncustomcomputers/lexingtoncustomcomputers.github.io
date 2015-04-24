@@ -12,7 +12,7 @@ function getHead () {
 	document.write(str);
 }
 
-function getBody () {
+function getBody (activePageID) {
 	var str = '' +
 	'<div class="navbar navbar-inverse navbar-static-top" style="font-size: 18px;">' +
 		'<div class="container">' +
@@ -28,10 +28,10 @@ function getBody () {
 
 			'<div class="collapse navbar-collapse navHeaderCollapse">' +
 				'<ul class="nav navbar-nav navbar-right">' +
-					'<li>' +
+					'<li class="' + activePageID === 1 ? 'active' : '' + '">' +
 						'<a href="/">Home</a>' +
 					'</li>'+
-					'<li>' +
+					'<li class="' + activePageID === 2 ? 'active' : '' + '">' +
 						'<a href="/builds.html">View Our Builds</a>' +
 					'</li>' +
 					'<li>' +
