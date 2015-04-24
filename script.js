@@ -28,10 +28,10 @@ function getBody (activePageID) {
 
 			'<div class="collapse navbar-collapse navHeaderCollapse">' +
 				'<ul class="nav navbar-nav navbar-right">' +
-					'<li class="' + activePageID === 1 ? 'active' : '' + '">' +
+					'<li class="' + ((activePageID === 1) ? 'active' : '') + '">' +
 						'<a href="/">Home</a>' +
 					'</li>'+
-					'<li class="' + activePageID === 2 ? 'active' : '' + '">' +
+					'<li class="' + ((activePageID === 2) ? 'active' : '') + '">' +
 						'<a href="/builds.html">View Our Builds</a>' +
 					'</li>' +
 					'<li>' +
