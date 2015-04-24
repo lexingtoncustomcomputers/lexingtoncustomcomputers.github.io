@@ -16,7 +16,7 @@ function getBody (activePageID) {
 	var str = '' +
 	'<div class="navbar navbar-inverse navbar-static-top" style="font-size: 18px;">' +
 		'<div class="container">' +
-			'<a href="http://nostresswellcleanupthemess.weebly.com/" class="navbar-brand">' +
+			'<a href="/" class="navbar-brand">' +
 				'Lexington Custom Computers' +
 			'</a>' +
 
