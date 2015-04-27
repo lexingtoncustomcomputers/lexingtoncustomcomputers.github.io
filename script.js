@@ -6,7 +6,7 @@ function getHead () {
 	'<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">' +
 	'<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>' +
 	//Font from Google
-	'<link href="http://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">' +
+	'<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">' +
 	//Stylesheet
 	'<link href="/style.css" rel="stylesheet">';
 	document.write(str);
